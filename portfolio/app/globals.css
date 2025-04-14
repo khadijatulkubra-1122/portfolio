@@ -3,3 +3,7 @@
 *{
   font-family: outfit ;
 }
+/* REMOVE THIS WHOLE BLOCK */
+.bg-\[url\(\)\] {
+  background-image: url(../assets/footer.png);
+}
