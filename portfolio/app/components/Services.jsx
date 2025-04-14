@@ -10,7 +10,7 @@ const services = () => {
       I am a frontend developer from California, USA with 10 years of experience in multiple 
       companies like Microsoft, Tesla and Apple.
       </p>
-      <div className="grid grid-cols-4  gap-6 my-10">
+      <div className="grid grid-cols-4   gap-6 my-10">
       {serviceData.map(({ icon, link, title, description }, index) => (
   <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500" key={index}
   >
